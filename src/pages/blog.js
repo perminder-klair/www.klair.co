@@ -1,13 +1,15 @@
+// https://github.com/gaearon/overreacted.io
 import React from 'react';
 import styled from 'styled-components';
 
-import Layout from '../components/Layout';
 import Seo from '../components/Seo';
+import Layout from '../components/Layout';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import NewsItem from '../components/NewsItem';
 
-const Container = styled.div`
-  margin-top: 4rem;
-  margin-bottom: 6rem;
+const Main = styled.div`
+  min-height: 80vh;
 `;
 
 const NewsUpdates = ({ data }) => {
@@ -16,8 +18,9 @@ const NewsUpdates = ({ data }) => {
   return (
     <Layout>
       <Seo title="News & Updates" />
-      <section className="section">
-        <Container className="container">
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <Main className="container">
           <h2 className="title is-2 has-text-centered has-text-weight-bold">
             News & Updates
           </h2>
@@ -28,8 +31,9 @@ const NewsUpdates = ({ data }) => {
               ))}
             </div>
           </div>
-        </Container>
-      </section>
+        </Main>
+        <Footer />
+      </div>
     </Layout>
   );
 };
