@@ -8,6 +8,7 @@ module.exports = {
     siteUrl: config.siteUrl,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
