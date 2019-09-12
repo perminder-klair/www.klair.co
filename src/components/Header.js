@@ -42,11 +42,11 @@ const Header = () => (
           Blog
         </Link>
       </li>
-      {/* <li className="mr-6">
+      <li className="mr-6">
         <Link className="text-xl font-medium" to="/photography">
           Photography
         </Link>
-      </li> */}
+      </li>
       <li className="mr-6">
         <Link className="text-xl font-medium" to="/contact">
           Get in touch

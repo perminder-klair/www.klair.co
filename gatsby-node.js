@@ -1,5 +1,5 @@
+const path = require(`path`);
 const { createFilePath } = require('gatsby-source-filesystem');
-const path = require('path');
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
@@ -18,6 +18,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       // createFilePath returns a path with the leading "/".
       value: `${value}`,
     });
+
+    const value2 =
+      node.fileAbsolutePath.search('gallery') !== -1 ? 'gallery' : 'post';
+    createNodeField({
+      // Name of the field you are adding
+      name: 'type',
+      // Individual MDX node
+      node,
+      // Generated value based on filepath with "blog" prefix. We
+      // don't need a separating "/" before the value because
+      // createFilePath returns a path with the leading "/".
+      value: value2,
+    });
   }
 };
 
@@ -31,6 +44,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           node {
             id
             fields {
+              type
               slug
             }
           }
@@ -44,13 +58,23 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Create blog post pages.
   const posts = result.data.allMdx.edges;
   // We'll call `createPage` for each result
-  posts.forEach(({ node }, index) => {
+  posts.forEach(({ node }) => {
+    let layout;
+    let itemPath = node.fields.slug;
+    if (node.type === 'gallery') {
+      layout = 'GalleryLayout';
+      itemPath = `gallery/${itemPath}`;
+    }
+    if (node.type === 'post') {
+      layout = 'NewsLayout';
+      itemPath = `post/${itemPath}`;
+    }
     createPage({
       // This is the slug we created before
       // (or `node.frontmatter.slug`)
-      path: node.fields.slug,
+      path: itemPath,
       // This component will wrap our MDX content
-      component: path.resolve(`./src/components/NewsLayout.js`),
+      component: path.resolve(`./src/components/${layout}.js`),
       // We can use the values in this context in
       // our page layout component
       context: { id: node.id },

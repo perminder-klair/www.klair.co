@@ -37,7 +37,10 @@ export default NewsUpdates;
 
 export const pageQuery = graphql`
   query newsIndex {
-    allMdx(sort: { fields: frontmatter___date, order: DESC }) {
+    allMdx(
+      filter: { fields: { type: { eq: "post" } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       edges {
         node {
           id

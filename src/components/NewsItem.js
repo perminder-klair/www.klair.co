@@ -7,7 +7,7 @@ const Container = styled.article``;
 
 const NewsItem = ({ post }) => (
   <Container className="mb-12">
-    <Link to={post.fields.slug}>
+    <Link to={`post/${post.fields.slug}`}>
       <h3 className="text-3xl font-bold mb-3">{post.frontmatter.title}</h3>
     </Link>
     <div>
