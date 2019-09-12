@@ -21,15 +21,10 @@ const NewsUpdates = ({ data }) => {
       <div className="flex flex-col min-h-screen">
         <Header />
         <Main className="container">
-          <h2 className="title is-2 has-text-centered has-text-weight-bold">
-            News & Updates
-          </h2>
-          <div className="columns is-centered">
-            <div className="column is-four-fifths">
-              {posts.map(({ node: post }) => (
-                <NewsItem key={post.id} post={post} />
-              ))}
-            </div>
+          <div className="py-16 px-64">
+            {posts.map(({ node: post }) => (
+              <NewsItem key={post.id} post={post} />
+            ))}
           </div>
         </Main>
         <Footer />

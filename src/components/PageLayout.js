@@ -5,8 +5,11 @@ import styled from 'styled-components';
 import { MDXProvider } from '@mdx-js/react';
 
 import Layout from './Layout';
+import Header from './Header';
+import Footer from './Footer';
 
-const Container = styled.div`
+const Main = styled.div`
+  min-height: 80vh;
   margin-top: 2rem;
   margin-bottom: 4rem;
   h1 {
@@ -25,7 +28,6 @@ const Container = styled.div`
     img {
       display: flex;
       margin: 3rem auto 4rem auto;
-      box-shadow: ${props => props.theme.boxShadow};
     }
   }
 `;
@@ -33,24 +35,27 @@ const Container = styled.div`
 export default function PageTemplate({ children }) {
   return (
     <Layout>
-      <Container className="container">
-        <div className="columns is-centered">
-          <div className="column is-four-fifths">
-            <section className="section">
-              <MDXProvider
-                components={{
-                  h1: props => <h1 className="title is-1" {...props} />,
-                  h2: props => <h2 className="title is-2" {...props} />,
-                  h3: props => <h3 className="title is-3" {...props} />,
-                  p: props => <p className="" {...props} />,
-                }}
-              >
-                {children}
-              </MDXProvider>
-            </section>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <Main className="container">
+          <div className="columns is-centered">
+            <div className="column is-four-fifths">
+              <section className="section">
+                <MDXProvider
+                  components={{
+                    h1: props => <h1 className="title is-1" {...props} />,
+                    h2: props => <h2 className="title is-2" {...props} />,
+                    h3: props => <h3 className="title is-3" {...props} />,
+                    p: props => <p className="" {...props} />,
+                  }}>
+                  {children}
+                </MDXProvider>
+              </section>
+            </div>
           </div>
-        </div>
-      </Container>
+        </Main>
+        <Footer />
+      </div>
     </Layout>
   );
 }

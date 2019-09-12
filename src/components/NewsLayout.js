@@ -10,10 +10,8 @@ export default function PageTemplate({ data: { mdx } }) {
   return (
     <PageLayout>
       <Seo title={mdx.frontmatter.title} />
-      <div className="page-content">
-        <h1 className="title is-1 has-text-centered has-text-weight-bold">
-          {mdx.frontmatter.title}
-        </h1>
+      <div>
+        <h1 className="text-3xl font-bold mb-3">{mdx.frontmatter.title}</h1>
         <MDXRenderer>{mdx.body}</MDXRenderer>
       </div>
     </PageLayout>
