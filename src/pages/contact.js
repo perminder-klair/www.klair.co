@@ -4,29 +4,16 @@ import styled from 'styled-components';
 import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-const Section = styled.div`
-  .container {
-    margin-top: 4rem;
-  }
-  p {
-    margin-bottom: 1rem;
-  }
-  .image {
-    width: 500px;
-    height: auto;
-    margin: 0 auto;
-    object-position: center;
-  }
-  .button {
-    margin-top: 2rem;
-  }
-`;
+const Container = styled.div``;
 
 const Contact = () => (
   <Layout>
     <Seo title="Contact Us" />
-    <Section className="section">
+    <Container className="flex flex-col min-h-screen">
+      <Header />
       <div className="container">
         <div className="columns is-centered">
           <div className="column is-two-fifths">
@@ -67,7 +54,8 @@ const Contact = () => (
           </div>
         </div>
       </div>
-    </Section>
+      <Footer />
+    </Container>
   </Layout>
 );
 

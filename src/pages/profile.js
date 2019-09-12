@@ -19,12 +19,17 @@ const Profile = () => (
     <Container className="flex flex-col min-h-screen">
       <Header />
       <div className="container">
-        <div className="flex justify-center mt-16">
-          <h2 className="inline-flex text-4xl font-semibold p-4 text-center border-2 border-solid border-gray-900">
+        <div className="flex flex-col items-center my-16">
+          <h2 className="inline-flex text-4xl font-semibold p-4  border-2 border-solid border-gray-900">
             Parminder Singh Klair
           </h2>
+          <h3 className="text-3xl p-2  mt-2">Full Stack Developer</h3>
+          <img
+            src="/images/me.jpg"
+            alt="Parminder Klair"
+            className="rounded-full w-48 h-48 mt-6"
+          />
         </div>
-        <h3 className="text-3xl p-2 mb-16 text-center">Full Stack Developer</h3>
         <div className="flex mb-4">
           <div className="w-1/2 border-r border-solid border-gray-400 pr-16 text-right">
             <SectionHeading>Experience</SectionHeading>
