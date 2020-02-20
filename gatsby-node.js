@@ -26,10 +26,11 @@ function truncate(n, useWordBoundary) {
 //
 // Get GitHub repos
 //
+const token = '1a6f0f65a3956418afb7e2559d15b973ab13ce53' // process.env.GATSBY_GITHUB_TOKEN
 const gitHubConfig = {
   headers: {
-    'User-Agent': 'kremalicious/portfolio',
-    Authorization: `token ${process.env.GATSBY_GITHUB_TOKEN}`
+    'User-Agent': 'perminder-klair/www.klair.co',
+    Authorization: `token ${token}`
   }
 }
 
