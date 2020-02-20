@@ -8,10 +8,10 @@
   <a href="https://klair.co">klair.co</a>
 </p>
 <p align="center">
-  <a href="https://github.com/kremalicious/portfolio/actions"><img src="https://github.com/kremalicious/portfolio/workflows/CI%2FCD%20Pipeline/badge.svg" /></a>
-  <a href="https://codeclimate.com/github/kremalicious/portfolio/maintainability"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/maintainability" /></a>
-  <a href="https://codeclimate.com/github/kremalicious/portfolio/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/test_coverage" /></a>
-  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/kremalicious/portfolio.svg" /></a>
+  <a href="https://github.com/perminder-klair/portfolio/actions"><img src="https://github.com/perminder-klair/portfolio/workflows/CI%2FCD%20Pipeline/badge.svg" /></a>
+  <a href="https://codeclimate.com/github/perminder-klair/portfolio/maintainability"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/maintainability" /></a>
+  <a href="https://codeclimate.com/github/perminder-klair/portfolio/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/test_coverage" /></a>
+  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/perminder-klair/portfolio.svg" /></a>
 </p>
 
 - [🎉 Features](#-features)
@@ -115,9 +115,9 @@ If you want to know how, have a look at the respective components:
 
 ### 📈 Matomo (formerly Piwik) analytics tracking
 
-Site sends usage statistics to my own [Matomo](https://matomo.org) installation. To make this work in Gatsby, I created and open sourced a plugin, [gatsby-plugin-matomo](https://github.com/kremalicious/gatsby-plugin-matomo), which is in use on this site.
+Site sends usage statistics to my own [Matomo](https://matomo.org) installation. To make this work in Gatsby, I created and open sourced a plugin, [gatsby-plugin-matomo](https://github.com/perminder-klair/gatsby-plugin-matomo), which is in use on this site.
 
-- [gatsby-plugin-matomo](https://github.com/kremalicious/gatsby-plugin-matomo)
+- [gatsby-plugin-matomo](https://github.com/perminder-klair/gatsby-plugin-matomo)
 
 ### 🖼 Project images
 
@@ -154,7 +154,7 @@ If you want to know how, have a look at the respective component:
 You can simply use [Docker](https://www.docker.com) & [Docker Compose](https://docs.docker.com/compose/) or install and run dependencies on your local system.
 
 ```bash
-git clone git@github.com:kremalicious/portfolio.git
+git clone git@github.com:perminder-klair/portfolio.git
 cd portfolio/
 
 # GATSBY_GITHUB_TOKEN is required for some parts
