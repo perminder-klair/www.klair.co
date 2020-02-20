@@ -3,11 +3,11 @@
 
 
 /* TEAM */
-	design & development	: matthias kretschmann
+	design & development	: Parminder Klair
 	Site					        : https://matthiaskretschmann.com
-	Twitter					      : @kremalicious
-  GitHub					      : @kremalicious
-	Location				      : Berlin, Germany
+	Twitter					      : @pinku1
+  GitHub					      : @perminder_klair
+	Location				      : Birmingham, England
 
 /* SITE */
 	Typography				    : Brandon Grotesque, FF Tisa Sans Web Pro

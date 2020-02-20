@@ -1,12 +1,12 @@
 {
-  "name": "@kremalicious/portfolio",
+  "name": "@perminder_klair/portfolio",
   "description": "Portfolio thingy, built with Gatsby",
   "version": "0.1.0",
-  "homepage": "https://matthiaskretschmann.com",
-  "repository": "github:kremalicious/portfolio",
-  "bugs": "https://github.com/kremalicious/portfolio/issues",
+  "homepage": "https://klair.co",
+  "repository": "github:perminder-klair/portfolio",
+  "bugs": "https://github.com/perminder-klair/portfolio/issues",
   "license": "MIT",
-  "author": "Matthias Kretschmann <m@kretschmann.io>",
+  "author": "Parminder Klair <perminder.klair@gmail.com>",
   "scripts": {
     "start": "gatsby develop --host 0.0.0.0",
     "ssr": "npm run build && serve -s public/",

@@ -29,7 +29,7 @@ export default function Resume() {
           ))}
         </div>
 
-        <div>
+        {/* <div>
           <h3 className={styles.subTitle}>
             <Icon name="Award" />
             Awards
@@ -39,7 +39,7 @@ export default function Resume() {
           {awards.map(award => (
             <ResumeItem key={shortid.generate()} award={award} />
           ))}
-        </div>
+        </div> */}
 
         <div>
           <h3 className={styles.subTitle}>

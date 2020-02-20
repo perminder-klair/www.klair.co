@@ -22,7 +22,8 @@ import {
   Award,
   BookOpen,
   Star,
-  Info
+  Info,
+  Instagram
 } from 'react-feather'
 import { ReactComponent as Dribbble } from '../../images/dribbble.svg'
 import styles from './Icon.module.scss'
@@ -55,7 +56,8 @@ const Icon = memo(({ name, ...props }) => {
     Award,
     BookOpen,
     Star,
-    Info
+    Info,
+    Instagram
   }
 
   const IconMapped = components[name]

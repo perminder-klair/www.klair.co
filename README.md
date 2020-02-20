@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="https://matthiaskretschmann.com"><img src="src/images/github-header.png" /></a>
+  <a href="https://klair.co"><img src="src/images/github-header.png" /></a>
  </p>
 <h2 align="center">
   👔 Portfolio thingy, built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
 </h2>
 <p align="center">
-  <a href="https://matthiaskretschmann.com">matthiaskretschmann.com</a>
+  <a href="https://klair.co">klair.co</a>
 </p>
 <p align="center">
   <a href="https://github.com/kremalicious/portfolio/actions"><img src="https://github.com/kremalicious/portfolio/workflows/CI%2FCD%20Pipeline/badge.svg" /></a>
