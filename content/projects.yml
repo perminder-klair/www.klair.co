@@ -7,7 +7,7 @@
     Able to deliver anything from anywhere, Packrs is the food delivery, grocery delivery, whatever-you-can-think-of delivery app to bring what you crave right to your door.
 
   links:
-    - title: packrs.co
+    - title: packrs
       icon: Compass
       url: https://packrs.co
   techstack:
@@ -26,3 +26,319 @@
     - Cloudflare
     - MonogDB
     - Docker
+
+- title: DexWallet
+  slug: /dexwallet/
+  img: images/dexwallet-01.png
+  description: >
+    Dexlab is a france based company which provides online wallet for cryptocurrency. They deal in Ethereum.
+
+    It has a very transparent and safe mode of saving your valuable currency.
+
+  links:
+    - title: dexwallet.io
+      icon: Compass
+      url: https://dexwallet.io
+  techstack:
+    - Sketch
+    - NextJs
+    - React
+    - GraphQl
+    - Web3.js
+    - Node Js
+    - Blockchain
+    - React Native
+    - Apollo GraphQl
+    - MonogDB
+    - Contentful
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - KeystoneJs
+    - Docker
+    - VS Code
+
+- title: LuxuryLimoLand
+  slug: /luxurylimoland/
+  img: images/luxurylimoland-01.png
+  description: >
+    Best Luxury Cars Rental in the jalandhar. Whether you’re cruising in an economy, SUV, luxury vehicle, or minivan, there’s nothing holding you back from finding the perfect car for your needs. With no booking or credit card fees, you get great deals, too.. We use all our experience — and the experiences of millions of our customers — to bring you the car you need and the quality of service you want. Always at the best price.
+
+    In simple terms, because we bring you unbeatable value and peace of mind throughout your rental car journey. Easy & Fast — Book a car in 60 seconds. Rent a Car coupons and deals
+
+  links:
+    - title: luxurylimoland
+      icon: Compass
+      url: https://luxurylimoland.com
+  techstack:
+    - Sketch
+    - NextJs
+    - React
+    - GraphQl
+    - Apollo GraphQl
+    - MonogDB
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - KeystoneJs
+    - Docker
+    - VS Code
+
+- title: ListMe
+  slug: /listme/
+  img: images/listme-01.png
+  description: >
+    ListMe is an event social networking service for brands to build & engage with their followers, a seamless virtual door with a cashless feature to accommodate the change in user behaviour.
+
+    Join the digital ecosystem and create guess success.
+
+  links:
+    - title: listme
+      icon: Compass
+      url: https://listmeapp.co
+  techstack:
+    - Sketch
+    - React
+    - GraphQl
+    - React Native
+    - Apollo GraphQl
+    - MonogDB
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - KeystoneJs
+    - Docker
+    - VS Code
+
+- title: ListMe
+  slug: /listme/
+  img: images/listme-01.png
+  description: >
+    ListMe is an event social networking service for brands to build & engage with their followers, a seamless virtual door with a cashless feature to accommodate the change in user behaviour.
+
+    Join the digital ecosystem and create guess success.
+
+  links:
+    - title: listme
+      icon: Compass
+      url: https://listmeapp.co
+  techstack:
+    - Sketch
+    - React
+    - GraphQl
+    - React Native
+    - Node Js
+    - Apollo GraphQl
+    - MonogDB
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - KeystoneJs
+    - Docker
+    - VS Code
+
+- title: Zeiq Social
+  slug: /zeiq-social/
+  img: images/zeiqsocial-01.png
+  description: >
+    All your social stats Generate monthly social reports. We record all your social stats and send you amazingly simple monthly reports
+
+  links:
+    - title: zeiq social
+      icon: Compass
+      url: https://zeiq.social
+  techstack:
+    - Sketch
+    - React
+    - GraphQl
+    - Create React App
+    - Apollo GraphQl
+    - Node Js
+    - MonogDB
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - KeystoneJs
+    - Docker
+    - VS Code
+
+- title: Stackable Space
+  slug: /stackable/
+  img: images/stackable-01.png
+  description: >
+    It is a revolutionary content management system for everything from websites to apps. Stackble creates an indivitalised api around your data and sends over secure SSL.
+
+  links:
+    - title: stackable space
+      icon: Compass
+      url: https://stackable.space
+  techstack:
+    - Sketch
+    - React
+    - Metor Js
+    - MonogDB
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - Docker
+    - VS Code
+
+- title: FoodBucket
+  slug: /foodbucket/
+  img: images/foodbucket-01.png
+  description: >
+    FoodBucket Waiter app allows waiter to take orders by simply selecting food categories and items with zero complexity.Customer can view the menu and place table top orders and the staff can deliver order to the table and collect payment once done.
+
+    This mode is for bars and restaurants who like to adapt a work flow model with minimum staff and faster service.Get access to advance set of reports which cover sales, purchases, inventory, profit and loss statements. etc, which can be generated on daily. weekly. monthly. quarterly, semi-annually and annually basis.
+
+    links:
+    - title: food bucket
+      icon: Compass
+      url: https://foodbucket.io
+  techstack:
+    - Sketch
+    - React
+    - React Native
+    - PostgreSQL
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - Docker
+    - VS Code
+    - Node Js
+
+- title: Boomaro
+  slug: /boomaro/
+  img: images/boomaro-01.png
+  description: >
+    A simplified tool for Accountants available on Mac and Windows
+
+  links:
+    - title: boomaro
+      icon: Compass
+      url: https://boomaro.co
+  techstack:
+    - Sketch
+    - React
+    - Electron Js
+    - PostgreSQL
+    - GraphQL
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - Docker
+    - VS Code
+    - Node Js
+
+- title: Bloom
+  slug: /bloom/
+  img: images/bloom-01.png
+  description: >
+    Bloom a companion to unlock your highly creative mind
+
+    Un-expected connections lead to new and original ideas. Bloom will challenge you to perceive the world differently, notice things others may not, and most importantly have fun along the way. We Invite you to join our beta programme waiting list.
+
+  links:
+    - title: bloom
+      icon: Compass
+      url: https://getbloom.cc
+  techstack:
+    - Sketch
+    - React
+    - MongoDB
+    - React Native
+    - GraphQL
+    - Sanity.io
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - Docker
+    - VS Code
+    - Node Js
+    - Apollo GraphQL
+    - GraphQL
+
+- title: 6in.co
+  slug: /6in/
+  img: images/6in-01.png
+  description: >
+    Static E-Commerce site for premium phone accessories
+
+  links:
+    - title: 6in
+      icon: Compass
+      url: https://6in.co
+  techstack:
+    - Sketch
+    - React
+    - Stripe
+    - GatsbyJs
+    - GraphQL
+    - Sanity.io
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - Docker
+    - VS Code
+    - Node Js
+    - Apollo GraphQL
+    - GraphQL
+
+- title: IntelliShare
+  slug: /intellishare/
+  img: images/intellishare-01.png
+  description: >
+    Store and share important documents with your clients
+
+  links:
+    - title: IntelliShare
+      icon: Compass
+      url: #
+  techstack:
+    - Sketch
+    - React
+    - Stripe
+    - Create React App
+    - GraphQL
+    - MongoDB
+    - HTML
+    - Styled Components
+    - JavaScript
+    - Travis
+    - AWS S3
+    - Cloudflare
+    - Docker
+    - VS Code
+    - Node Js
+    - Apollo GraphQL
+    - GraphQL
