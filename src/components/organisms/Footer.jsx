@@ -1,6 +1,5 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { graphql, useStaticQuery } from 'gatsby'
 import loadable from '@loadable/component'
 import LogoUnit from '../molecules/LogoUnit'
 import Networks from '../molecules/Networks'
@@ -9,16 +8,7 @@ import { useMeta } from '../../hooks/use-meta'
 
 const LazyVcard = loadable(() => import('../atoms/Vcard'))
 
-const query = graphql`
-  query {
-    # the package.json file
-    portfolioJson {
-      bugs
-    }
-  }
-`
-
-const FooterMarkup = ({ pkg, meta, year }) => (
+const FooterMarkup = ({ photography, meta, year }) => (
   <footer className={`h-card ${styles.footer}`}>
     <LogoUnit minimal />
     <Networks small />
@@ -28,7 +18,7 @@ const FooterMarkup = ({ pkg, meta, year }) => (
       <a className="u-key" href="/resume">
         Resume
       </a>
-      <a href={pkg.bugs}>Found a bug?</a>
+      <a href={photography}>Photography</a>
     </p>
     <p className={styles.copyright}>
       <small>
@@ -50,10 +40,15 @@ FooterMarkup.propTypes = {
 
 function Footer() {
   const metaYaml = useMeta()
-  const { portfolioJson } = useStaticQuery(query)
   const year = new Date().getFullYear()
 
-  return <FooterMarkup year={year} pkg={portfolioJson} meta={metaYaml} />
+  return (
+    <FooterMarkup
+      year={year}
+      photography="https://photography.klair.co/"
+      meta={metaYaml}
+    />
+  )
 }
 
 export default memo(Footer)
