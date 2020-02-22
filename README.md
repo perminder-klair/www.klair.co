@@ -8,10 +8,10 @@
   <a href="https://klair.co">klair.co</a>
 </p>
 <p align="center">
-  <a href="https://github.com/perminder-klair/portfolio/actions"><img src="https://github.com/perminder-klair/portfolio/workflows/CI%2FCD%20Pipeline/badge.svg" /></a>
-  <a href="https://codeclimate.com/github/perminder-klair/portfolio/maintainability"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/maintainability" /></a>
-  <a href="https://codeclimate.com/github/perminder-klair/portfolio/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/test_coverage" /></a>
-  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/perminder-klair/portfolio.svg" /></a>
+  <a href="https://github.com/perminder-klair/www.klair.co/actions"><img src="https://github.com/perminder-klair/www.klair.co/workflows/CI%2FCD%20Pipeline/badge.svg" /></a>
+  <a href="https://codeclimate.com/github/perminder-klair/www.klair.co/maintainability"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/maintainability" /></a>
+  <a href="https://codeclimate.com/github/perminder-klair/www.klair.co/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8f561ec93e0f8c6b15d9/test_coverage" /></a>
+  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/perminder-klair/www.klair.co.svg" /></a>
 </p>
 
 - [🎉 Features](#-features)
@@ -154,7 +154,7 @@ If you want to know how, have a look at the respective component:
 You can simply use [Docker](https://www.docker.com) & [Docker Compose](https://docs.docker.com/compose/) or install and run dependencies on your local system.
 
 ```bash
-git clone git@github.com:perminder-klair/portfolio.git
+git clone git@github.com:perminder-klair/www.klair.co.git
 cd portfolio/
 
 # GATSBY_GITHUB_TOKEN is required for some parts

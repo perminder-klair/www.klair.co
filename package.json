@@ -3,8 +3,8 @@
   "description": "Portfolio thingy, built with Gatsby",
   "version": "0.1.0",
   "homepage": "https://klair.co",
-  "repository": "github:perminder-klair/portfolio",
-  "bugs": "https://github.com/perminder-klair/portfolio/issues",
+  "repository": "github:perminder-klair/www.klair.co",
+  "bugs": "https://github.com/perminder-klair/www.klair.co/issues",
   "license": "MIT",
   "author": "Parminder Klair <perminder.klair@gmail.com>",
   "scripts": {
