@@ -6,9 +6,10 @@ import { useResume } from '../../hooks/use-resume'
 import styles from './index.module.scss'
 import Header from './Header'
 import ResumeItem from './ResumeItem'
+import SkillItem from './SkillItem'
 
 export default function Resume() {
-  const { education, work, awards } = useResume()
+  const { education, work, skills } = useResume()
 
   return (
     <>
@@ -50,6 +51,18 @@ export default function Resume() {
         <div>
           {education.map(eduPlace => (
             <ResumeItem key={shortid.generate()} eduPlace={eduPlace} />
+          ))}
+        </div>
+
+        <div>
+          <h3 className={styles.subTitle}>
+            <Icon name="Package" />
+            Skills
+          </h3>
+        </div>
+        <div>
+          {skills.map(skill => (
+            <SkillItem key={shortid.generate()} skill={skill} />
           ))}
         </div>
       </div>
