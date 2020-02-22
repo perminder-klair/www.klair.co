@@ -13,7 +13,7 @@ export default function Repository({ repo }) {
     stargazers_count
   } = repo
 
-  const isExternal = !full_name.includes('kremalicious')
+  const isExternal = !full_name.includes('perminder-klair')
 
   // for blog & portfolio and if there's no homepage, use github url
   // else use homepage field

@@ -19,7 +19,7 @@ export default function Header() {
       <div>
         <ul className={styles.contact}>
           <li>
-            <a href={website}>
+            <a href="/">
               <Icon name="Compass" />
               Portfolio
             </a>

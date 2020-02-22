@@ -24,7 +24,8 @@ import {
   Star,
   Info,
   Instagram,
-  Package
+  Package,
+  Linkedin
 } from 'react-feather'
 import { ReactComponent as Dribbble } from '../../images/dribbble.svg'
 import styles from './Icon.module.scss'
@@ -59,7 +60,8 @@ const Icon = memo(({ name, ...props }) => {
     Star,
     Info,
     Instagram,
-    Package
+    Package,
+    Linkedin
   }
 
   const IconMapped = components[name]
