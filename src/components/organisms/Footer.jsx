@@ -18,7 +18,7 @@ const FooterMarkup = ({ photography, meta, year }) => (
       <a className="u-key" href="/resume">
         Resume
       </a>
-      <a href={photography}>Photography</a>
+      <a href={photography}>Blog</a>
     </p>
     <p className={styles.copyright}>
       <small>
@@ -45,7 +45,7 @@ function Footer() {
   return (
     <FooterMarkup
       year={year}
-      photography="https://photography.klair.co/"
+      photography="https://blog.klair.co/"
       meta={metaYaml}
     />
   )
